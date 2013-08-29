@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<user id="1" topoos_id="1" email="demo1@demo.com" username="demo1" />
+	<oauth_token user_id="1" access_token="1" refresh_token="1" token_type="bearer" expires_in="99999999" />
+	<user id="2" topoos_id="2" email="demo2@demo.com" username="demo2" />
+	<oauth_token user_id="2" access_token="2" refresh_token="2" token_type="bearer" expires_in="99999999" />
+	<user id="3" topoos_id="3" email="demo3@demo.com" username="demo3" />
+	<oauth_token user_id="3" access_token="3" refresh_token="3" token_type="bearer" expires_in="99999999" />
+	<user id="4" topoos_id="4" email="demo4@demo.com" username="demo4" />
+	<oauth_token user_id="4" access_token="4" refresh_token="4" token_type="bearer" expires_in="99999999" />
+
+	<pairing id="1" status="ACCEPTED" controller_id="1" controlled_id="2" />
+	<pairing id="2" status="ACCEPTED" controller_id="3" controlled_id="2" />
+	<pairing id="3" status="PENDING" controller_id="4" controlled_id="2" />
+</dataset>

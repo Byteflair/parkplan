@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<user id="1" topoos_id="08b6e520-25b7-4493-a2ec-fa0963b4cb74" email="diego.castro@sportegos.com" username="dcastro" />
+	<oauth_token user_id="1" access_token="9567bf99-fe62-4e54-9828-b8bb5feb0480" refresh_token="ed24eb86-5b14-4216-9392-602227a9ca67" token_type="bearer" expires_in="31265331" />
+	<user id="2" topoos_id="c3cbb40b-27a7-4683-b8c7-038d7ee392f7" email="holab@byteflair.com" username="holab" />
+	<oauth_token user_id="c3cbb40b-27a7-4683-b8c7-038d7ee392f7" access_token="17ec1455-a8b4-4604-bde7-fd99a05cd22b" refresh_token="661304d1-56fc-476e-a1b4-cf9a40fa9b88" token_type="bearer" expires_in="31265331" />
+
+	<pairing id="1" status="ACCEPTED" controller_id="1" controlled_id="2" />
+	<pairing id="2" status="PENDING" controller_id="2" controlled_id="1" />
+	
+	<fence id="999999" status="RUNNING" />
+	
+	<fence id="999998" created="2013-08-06 17:34:14" name="control holab in that place" lat="40.252525" lng="-2.676767" radius="10.00" track_type="TRACK_OUT_OF_BOUNDS" status="RUNNING" />
+	
+	<fence_pairing pairing_id="1" topoos_track_id="999999" fence_id="999998" />
+</dataset>

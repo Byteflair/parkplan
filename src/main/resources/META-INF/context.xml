@@ -1,0 +1,23 @@
+<Context>
+    <Resource
+            name="jdbc/parkplan"
+            auth="Container"
+            type="javax.sql.DataSource"
+
+            url="jdbc:mysql://ec2-176-34-253-124.eu-west-1.compute.amazonaws.com:3306/parkplan"
+            username=""
+            password=""
+
+            driverClassName="com.mysql.jdbc.Driver"
+
+            maxActive="20"
+            maxIdle="1"
+            maxWait="10000"
+            removeAbandoned="true"
+            removeAbandonedTimeout="60"
+            logAbandoned="true"
+
+            validationQuery="SELECT 1"
+            testOnBorrow="true"
+            />
+</Context>

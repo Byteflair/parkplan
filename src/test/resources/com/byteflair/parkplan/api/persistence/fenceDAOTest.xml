@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<user id="1" topoos_id="1" email="demo1@demo.com" username="demo1" />
+	<oauth_token user_id="1" access_token="1" refresh_token="1" token_type="bearer" expires_in="99999999" />
+	<user id="2" topoos_id="1" email="demo2@demo.com" username="demo2" />
+	<oauth_token user_id="2" access_token="2" refresh_token="2" token_type="bearer" expires_in="99999999" />
+	
+	<pairing id="1" status="ACCEPTED" controller_id="1" controlled_id="2" />
+	
+	<fence id="1" name="demo-track1" status="CREATED" track_type="TRACK_OUT_OF_BOUNDS" lat="40.23" lng="-2.67" radius="5" />
+	<fence id="2" name="demo-track2" status="CREATED" track_type="TRACK_OUT_OF_BOUNDS" lat="40.23" lng="-2.67" radius="5" />
+	
+	<fence_pairing fence_id="1" pairing_id="1" topoos_track_id="1" />
+	<fence_pairing fence_id="2" pairing_id="1" topoos_track_id="2" />
+</dataset>
